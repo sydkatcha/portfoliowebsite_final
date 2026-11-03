@@ -169,3 +169,27 @@ a {
         .block-d5 {
             width: 25%;
         }
+
+.work {
+    display: flex;
+    flex-direction: column;
+}
+    .work-image {
+        display: flex;
+        flex-direction: row;
+    }
+    .work-text {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+        .work-text-title {
+            text-size: ;
+            text-style: ;
+        }
+        .work-text-subheader {
+
+        }
+        .work-text-body {
+
+        }
