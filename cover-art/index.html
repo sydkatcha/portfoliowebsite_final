@@ -3,96 +3,119 @@
     <head>
         <link rel="stylesheet" href="https://use.typekit.net/aes3zbk.css">
         <link rel="stylesheet" href=" /style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+            $("document").ready(
+                function() {
+                    $(".hamburger").click(() => $(".navigationbar").slideToggle());
+                    $(".closex").click(() => $(".navigationbar").fadeOut());
+                }
+            )
+        </script>
     </head>
     <body>
-        <div class="navigationbar">
-            <div class="navigationbar-name">    
-                <p> SYDNEY
-                </br>
-                    CHARLES
-                </p>
+        <div class="navigationbar-container">
+            <div class="navigationbar">
+                <div class="navigationbar-name">    
+                    <p> SYDNEY
+                    </br>
+                        CHARLES
+                    </p>
+                </div>
+                <div class="navigationbar-pages">
+                    <a href="/">
+                        <p>
+                            home
+                        </p>
+                    </a>
+                    <a href=" /about">
+                        <p>
+                            about
+                        </p>
+                    </a>
+                    <a href=" /cover-art">
+                        <p class="navigationbar-coverart">
+                            cover art
+                        </p>
+                    </a>
+                    <a href=" /layout-design">
+                        <p>
+                            layout design
+                        </p>
+                    </a>
+                    <a href=" /artwork">
+                        <p>
+                            artwork
+                        </p>
+                    </a>
+                </div>
+                <div class="closex">&#x2715; </div>
             </div>
-            <div class="navigationbar-pages">
-                <a href="/">
-                    <p>
-                        home
-                    </p>
-                </a>
-                <a href=" /about">
-                    <p>
-                        about
-                    </p>
-                </a>
-                <a href=" /cover-art">
-                    <p class="navigationbar-coverart">
-                        cover art
-                    </p>
-                </a>
-                <a href=" /layout-design">
-                    <p>
-                        layout design
-                    </p>
-                </a>
-                <a href=" /artwork">
-                    <p>
-                        artwork
-                    </p>
-                </a>
-            </div>
+            <div class="hamburger">&#9776;</div>
         </div>
 
         <div class="work-page">
             <div class="work">
-                <div class="work-image">
-                </div>
+                <img src=" /assets/bnbshirt.png" class="work-image">
                 <div class="work-text background-orange">
                     <div class="work-text-title">
-                        TITLE
+                        THIS IS WATER
                     </div>
                     <div class="work-text-subheader">
-                        subheader // 2026
+                        small book cover design // 2026
                     </div>
                     <div class="work-text-quote">
-                        "this is a quote."
+                        “This, I submit, is the freedom of a real education, of learning how to be well-adjusted. 
+                        You get to consciously decide what has meaning and what doesn't.”
                     </div>
                     <div class="work-text-body">
-                        this is body text
+                        This is a format design project featuring the graduation speech "This Is Water" by David Foster Wallace.
+                        The Swiss inspired design is used to convey Wallace's simple language, sarcasm, and strong message. 
+                        Purposefully rotated text, shapes, and single question mark encourage the viewer to look beyond the 
+                        obvious and question how they perceive the world.
                     </div>
                 </div>
             </div>
             <div class="work">
-                <div class="work-image">
-                </div>
+                <img src=" /assets/bnbshirt.png" class="work-image">
                 <div class="work-text background-purple">
                     <div class="work-text-title">
-                        TITLE
+                        FLOWERS FOR ALGERNON
                     </div>
                     <div class="work-text-subheader">
-                        subheader // 2026
+                        book cover design // 2025
                     </div>
                     <div class="work-text-quote">
-                        "this is a quote."
+                        "Intelligence without the ability to give and receive affection leads to mental and moral breakdown."
                     </div>
                     <div class="work-text-body">
-                        this is body text
+                        Designing this cover, I was inspired by the Rorschach inkblot cards, by which the protagonist's neurological
+                         changes are occasionally measured in the story. The cover features a muted, cool-toned color scheme, and 
+                         the illustrations nod to the protagonist's mouse companion, Algernon, who is also subjected to the same 
+                         tests alongside him.
                     </div>
                 </div>
             </div>
             <div class="work">
-                <div class="work-image">
-                </div>
+                <img src=" /assets/bnbshirt.png" class="work-image">
                 <div class="work-text background-lavender">
                     <div class="work-text-title">
-                        TITLE
+                        NEXT TO NORMAL
                     </div>
                     <div class="work-text-subheader">
-                        subheader // 2026
+                        album cover design // 2025
                     </div>
                     <div class="work-text-quote">
-                        "this is a quote."
+                        “The price of love is loss, but still we pay.”
                     </div>
                     <div class="work-text-body">
-                        this is body text
+                        Challenge : create a visually balanced album design that feels gritty, nods to pharmaceuticals, 
+                        instability, and grief, all while still having a “broadway musical aesthetic.”
+                    </br>
+                    </br>
+                        This album cover design features the 2009 Original Broadway Cast Recording album Next to Normal,
+                         which follows a suburban family struggling with the loss of a son and the challenges of mental 
+                         healthcare and psychopharmacology. The musical's songs lean towards the rock genre.
                     </div>
                 </div>
             </div>

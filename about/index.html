@@ -3,41 +3,54 @@
     <head>
         <link rel="stylesheet" href="https://use.typekit.net/aes3zbk.css">
         <link rel="stylesheet" href="/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+            $("document").ready(
+                function() {
+                    $(".hamburger").click(() => $(".navigationbar").slideToggle());
+                    $(".closex").click(() => $(".navigationbar").fadeOut());
+                }
+            )
+        </script>
     </head>
     <body>
-        <div class="navigationbar">
-            <div class="navigationbar-name">    
-                <p> SYDNEY
-                </br>
-                    CHARLES
-                </p>
+        <div class="navigationbar-container">
+            <div class="navigationbar">
+                <div class="navigationbar-name">    
+                    <p> SYDNEY
+                    </br>
+                        CHARLES
+                    </p>
+                </div>
+                <div class="navigationbar-pages">
+                    <a href="/">
+                        <p>
+                            home
+                        </p>
+                    </a>
+                    <a href=" /about">
+                        <p class="navigationbar-about">
+                            about
+                        </p>
+                    </a>
+                    <a href=" /cover-art">
+                        <p>
+                            cover art
+                        </p>
+                    </a>
+                    <a href=" /layout-design">
+                        <p>
+                            layout design
+                        </p>
+                    </a>
+                    <a href=" /artwork">
+                        <p>
+                            artwork
+                        </p>
+                    </a>
+                </div>
+                <div class="closex">&#x2715; </div>
             </div>
-            <div class="navigationbar-pages">
-                <a href="/">
-                    <p>
-                        home
-                    </p>
-                </a>
-                <a href=" /about">
-                    <p class="navigationbar-about">
-                        about
-                    </p>
-                </a>
-                <a href=" /cover-art">
-                    <p>
-                        cover art
-                    </p>
-                </a>
-                <a href=" /layout-design">
-                    <p>
-                        layout design
-                    </p>
-                </a>
-                <a href=" /artwork">
-                    <p>
-                        artwork
-                    </p>
-                </a>
-            </div>
+            <div class="hamburger">&#9776;</div>
         </div>
     </body>

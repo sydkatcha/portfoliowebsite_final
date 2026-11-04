@@ -3,114 +3,129 @@
     <head>
         <link rel="stylesheet" href="https://use.typekit.net/aes3zbk.css">
         <link rel="stylesheet" href="/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+            $("document").ready(
+                function() {
+                    $(".hamburger").click(() => $(".navigationbar").slideToggle());
+                    $(".closex").click(() => $(".navigationbar").fadeOut());
+                }
+            )
+        </script>
     </head>
     <body>
-        <div class="navigationbar">
-            <div class="navigationbar-name">    
-                <p> SYDNEY
-                </br>
-                    CHARLES
-                </p>
+        <div class="navigationbar-container">
+            <div class="navigationbar">
+                <div class="navigationbar-name">    
+                    <p> SYDNEY
+                    </br>
+                        CHARLES
+                    </p>
+                </div>
+                <div class="navigationbar-pages">
+                    <a href="/">
+                        <p>
+                            home
+                        </p>
+                    </a>
+                    <a href=" /about">
+                        <p>
+                            about
+                        </p>
+                    </a>
+                    <a href=" /cover-art">
+                        <p>
+                            cover art
+                        </p>
+                    </a>
+                    <a href=" /layout-design">
+                        <p>
+                            layout design
+                        </p>
+                    </a>
+                    <a href=" /artwork">
+                        <p class="navigationbar-artwork">
+                            artwork
+                        </p>
+                    </a>
+                </div>
+                <div class="closex">&#x2715; </div>
             </div>
-            <div class="navigationbar-pages">
-                <a href="/">
-                    <p>
-                        home
-                    </p>
-                </a>
-                <a href=" /about">
-                    <p>
-                        about
-                    </p>
-                </a>
-                <a href=" /cover-art">
-                    <p>
-                        cover art
-                    </p>
-                </a>
-                <a href=" /layout-design">
-                    <p>
-                        layout design
-                    </p>
-                </a>
-                <a href=" /artwork">
-                    <p class="navigationbar-artwork">
-                        artwork
-                    </p>
-                </a>
-            </div>
+            <div class="hamburger">&#9776;</div>
         </div>
 
         <div class="work-page">
             <div class="work">
-                <div class="work-image">
-                </div>
+                <img src=" /assets/bnbshirt.png" class="work-image">
                 <div class="work-text background-purple">
                     <div class="work-text-title">
-                        TITLE
+                        OZARK RESOLE
                     </div>
                     <div class="work-text-subheader">
-                        subheader // 2026
-                    </div>
-                    <div class="work-text-quote">
-                        "this is a quote."
+                        custom illustrations // 2026
                     </div>
                     <div class="work-text-body">
-                        this is body text
+                        Client requested custom illustrations for a climbing shoe resole business. 
+                        I was given creative freedom to choose an Arkansas animal and given direction 
+                        to create certain “expressions” which could be paired with their FAQs, shipping, 
+                        business mission, etc.
                     </div>
                 </div>
             </div>
             <div class="work">
-                <div class="work-image">
-                </div>
+                <img src=" /assets/bnbshirt.png" class="work-image">
                 <div class="work-text background-orange">
                     <div class="work-text-title">
-                        TITLE
+                        THEATER ICONS
                     </div>
                     <div class="work-text-subheader">
-                        subheader // 2026
-                    </div>
-                    <div class="work-text-quote">
-                        "this is a quote."
+                        illustrations // 2026
                     </div>
                     <div class="work-text-body">
-                        this is body text
+                        This was a class project called Icons for Awareness. I chose to create a set of icons 
+                        that illustrate the importance of live theater through its own stories. The set was designed
+                         to be fun, approachable, and quirky. 
                     </div>
                 </div>
             </div>
             <div class="work">
-                <div class="work-image">
-                </div>
+                <img src=" /assets/bnbshirt.png" class="work-image">
                 <div class="work-text background-blue">
                     <div class="work-text-title">
-                        TITLE
+                        FOUND
                     </div>
                     <div class="work-text-subheader">
-                        subheader // 2026
-                    </div>
-                    <div class="work-text-quote">
-                        "this is a quote."
+                        collage // 2022
                     </div>
                     <div class="work-text-body">
-                        this is body text
+                        This project was a personal exploration of collage using found objects. 
+                        The works were made of random buttons, wood chips, magazine scraps, tissue paper, 
+                        etc. and explore shape, color, and movement.
                     </div>
                 </div>
             </div>
             <div class="work">
-                <div class="work-image">
+                <div class="work-image-gallery-container">
+                    <img src=" /assets/bnbshirt.png">
+                    <img src=" /assets/bnbshirt.png">
+                    <img src=" /assets/bnbshirt.png">
                 </div>
                 <div class="work-text background-grey">
                     <div class="work-text-title">
-                        TITLE
+                        DRAWINGS
                     </div>
                     <div class="work-text-subheader">
-                        subheader // 2026
+                        charcoal illustrations // 2024
                     </div>
                     <div class="work-text-quote">
                         "this is a quote."
                     </div>
                     <div class="work-text-body">
-                        this is body text
+                        These drawings were created to explore mark variation using various charcoal 
+                        media and techniques. 
+                    </br>
+                    </br>
+1                       8x24in
                     </div>
                 </div>
             </div>
