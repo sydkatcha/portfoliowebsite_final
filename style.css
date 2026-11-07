@@ -58,6 +58,19 @@ a {
             cursor: pointer;
         }
 
+.page-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.page-title {
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 48;
+}
+
 .work-page {
     display: flex;
     flex-direction: column;
@@ -127,6 +140,38 @@ a {
 .background-raisin {
     background-color: #3A2627;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+    .footer-pages {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-socials-container {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+    }
+    .footer-socials {
+        max-height: 3rem;
+    }
+
+    .footer-name {
+        font-weight: bold;
+    }
+
+    .footer-copyright {
+        
+    }
 
 @media screen and (min-width:768px) {
     .navigationbar {
