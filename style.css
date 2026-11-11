@@ -268,23 +268,27 @@ a {
             gap: 4rem;
             font-size: 1rem;
         }
-            .navigationbar-home {
+        
+        .hovereffect:hover {
+            font-weight: 700;
+        }
+            .navigationbar-home-char {
                 font-weight: bolder;
                 color: #7C6F0F;
             }
-            .navigationbar-about {
+            .navigationbar-about-char {
                 font-weight: bolder;
                 color: #7C6F0F;
             }
-            .navigationbar-coverart {
+            .navigationbar-coverart-char {
                 font-weight: bolder;
                 color: #7C6F0F;
             }
-            .navigationbar-layoutdesign {
+            .navigationbar-layoutdesign-char {
                 font-weight: bolder;
                 color: #7C6F0F;
             }
-            .navigationbar-artwork {
+            .navigationbar-artwork-char {
                 font-weight: bolder;
                 color: #7C6F0F;
             }
